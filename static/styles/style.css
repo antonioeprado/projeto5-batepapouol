@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container-main {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #F3F3F3;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.topbar > * {
+    margin: 22px;
+}
+
+.logo {
+    width: 75px;
+    height: 53px;
+    background-image: url("../media/logo\ 1.svg");
+    background-position: center;
+    background-size: 75px 53px;
+}
+
+.menu {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.container-conversa {
+    min-height: 507px;
+}
+
+.container-msg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+#msg-txt {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    border: 0;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 21px;
+}
+
+.submit {
+    border: 0;
+    background-color: #fff;
+    margin: 22px;
+}
+
+[name=paper-plane-outline] {
+    font-size: 26px;
+    cursor: pointer;
+}

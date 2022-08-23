@@ -11,11 +11,27 @@
 
 </head>
 <body>
-    
 
+    <div class="container-main">
+        <div class="topbar">
+            <div class="logo"></div>
+            <ion-icon class="menu" name="people"></ion-icon>
+        </div>
+        <div class="container-conversa"></div>
+        <div class="container-msg">
+            <form action="POST" class="msg">
+                <textarea name="msg" id="msg-txt" cols="30" rows="1" placeholder="Escreva aqui"></textarea>
+            </form>
+
+            <button class="submit" type="submit">
+                <ion-icon name="paper-plane-outline"></ion-icon>
+            </button>
+        </div>
+    </div>
 
 
 
     <script src="/static/scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
