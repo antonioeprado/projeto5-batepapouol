@@ -48,7 +48,6 @@
 #msg-txt {
     display: flex;
     align-items: center;
-    height: 80px;
     width: 100%;
     border: 0;
     resize: none;
@@ -57,15 +56,16 @@
     font-weight: 400;
     font-style: italic;
     line-height: 21px;
-}
-
-.submit {
-    border: 0;
-    background-color: #fff;
-    margin: 22px;
+    margin-left: 22px;
 }
 
 [name=paper-plane-outline] {
+    margin: 22px;
     font-size: 26px;
     cursor: pointer;
+}
+
+.entrou {
+    background-color: #DCDCDC;
+    border-radius: 2px;
 }
