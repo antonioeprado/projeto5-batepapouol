@@ -7,11 +7,11 @@ const drivenAPI = {
     counter: 0,
 };
 
-const usuario = {
+let usuario = {
     name: null
 };
 
-const mensagem = {
+let mensagem = {
     from: "",
     to: "todos",
     text: "",
