@@ -2,6 +2,7 @@
 
 body {
     height: 667px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-main {
@@ -41,8 +42,12 @@ body {
 }
 
 .container-msg {
+    background-color: white;
     display: flex;
     align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     justify-content: space-between;
     height: 80px;
     width: 100%;
@@ -72,4 +77,14 @@ body {
 .entrou {
     background-color: #DCDCDC;
     border-radius: 2px;
+}
+
+.msg {
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.muted {
+    color: #aaa;
 }
