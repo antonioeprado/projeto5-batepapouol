@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.overlay {
+    width: 30vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sidebarContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #fff;
+    width: 70vw;
+    height: 100%;
+}
+
+.sidebarHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84px;
+    padding: 20px;
+}
+
+.sidebarHeaderText {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}

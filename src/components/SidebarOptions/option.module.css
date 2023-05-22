@@ -1,0 +1,21 @@
+.sidebarOption {
+    display: flex;
+    margin-left: 17px;
+    align-items: center;
+    position: relative;
+}
+
+.smallIcon {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.select {
+    display: initial;
+    position: absolute;
+    right: 27px;
+}
+
+.unselect {
+    display: none;
+}

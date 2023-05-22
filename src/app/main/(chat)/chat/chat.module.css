@@ -1,0 +1,13 @@
+.msg {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.muted {
+    color: #aaa;
+    margin-right: 5px;
+}
